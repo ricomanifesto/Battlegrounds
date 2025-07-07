@@ -2,8 +2,6 @@
 
 Creates isolated AWS infrastructure for testing security tools and ML threat detection. Three-VPC architecture with full mesh connectivity.
 
-Calculate costs before deployment using AWS cost calculator.
-
 ## Infrastructure
 
 - Three VPCs with network isolation (Public, Private, ML)
@@ -128,8 +126,6 @@ Access SageMaker Studio:
 ```bash
 aws sagemaker describe-domain --domain-id <sagemaker_domain_id>
 ```
-
-Cost: ~$47/month baseline, ~$50-100/month with ML usage.
 
 ## Modern IaC Workflow
 
